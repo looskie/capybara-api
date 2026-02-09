@@ -81,7 +81,7 @@ func main() {
 	v1Group.Get("/capyhour", v1.GetCapyHour)
 	v1Group.Get("/capyofthehour", v1.GetCapyHour) // Alias
 
-	// Capybara facts
+	// Capybara facts 
 
 	v1Group.Get("/fact", v1.GetCapyFact)
 	v1Group.Get("/facts", v1.GetCapyFacts)
